@@ -1,0 +1,100 @@
+/*Style for the Body area*/
+
+
+/*Style for the Content*/
+.container-fluid{
+    padding-top: 3%;
+    background-color: transparent;
+}
+
+.search-input {
+    padding: 12px;
+    border: 1px solid #1f2127;;
+    border-radius: 5px;
+    background-color: #1f2127;
+    color: lightgrey;
+    width: 400px !important;
+    float: left;
+}
+
+.search-input::placeholder {
+    color: lightgrey;
+}
+
+.search-button {
+    padding: 11px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6b5dd3;
+    color: white;
+    cursor: pointer;
+    font-size: large;
+    margin-left: -8px;
+}
+
+form{
+    padding-bottom: 3%;
+}
+
+.weather-content{
+    padding-top: 0;
+}
+
+.card{
+    color:white ;
+    text-align: center;
+    background-color: #373b47 ;
+}
+.card:hover{
+    cursor: pointer;
+}
+
+.card-body{
+    color: white;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    height: 100px;
+}
+
+
+.card-body p, .card-img-overlay p{
+    font-size:11px;
+    margin-bottom: 3px;
+}
+
+
+h5,h3.card-title{
+    padding-top: 10%;
+    margin-bottom: 0;
+}
+h3.card-title{
+    font-size: 2.5em;
+    padding-top: 5%;
+    margin-bottom: 2%;
+}
+
+.card-img-overlay .col-6 , .card-body p{
+    padding: 0;
+}
+
+.close-button {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.small-btn-img {
+    padding: 0.25rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+}
+
+.small-btn-img img {
+    width: 1em; /* Adjust the size of the button image */
+    height: 1em; /* Adjust the size of the button image */
+}
+

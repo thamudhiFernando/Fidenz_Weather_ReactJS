@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  /*color: white;*/
 }
 
 .App-link {
@@ -35,4 +35,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+/*Style for the Header Area*/
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding-top: 6%;
+}
+.app-icon {
+  width: 40px;
+  height: auto;
+  margin-right:20px;
+}
+
+.app-title {
+  font-size: 35px;
+  margin: 0;
+}
+
+
+/*Style for the footer area*/
+footer{
+  text-align: center;
+  background-color: #373b47;
+  color: #adb5bd;
+  /*padding: 10px;*/
+  padding-top: 12px;
+  padding-bottom: 1px;
+  z-index: 10002;
+  margin-top: auto;
 }
